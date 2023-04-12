@@ -25,6 +25,15 @@ private:
 	int sks;
 
 public:
-	void Inputmk();
-	void Tampilmk();
+	void InputMK();
+	void TampilMK();
 };
+
+void matakuliah::InputMK() {
+	cout << "\nMasukkan kode mata kuliah : ";
+	cin >> kode;
+	cout << "Masukkan nama mata kuliah : ";
+	cin >> namamk;
+	cout << "Masukkan sks mata kuliah : ";
+	cin >> sks;
+}
