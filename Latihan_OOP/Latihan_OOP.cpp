@@ -23,4 +23,8 @@ private:
 	string kode;
 	string namamk;
 	int sks;
+
+public:
+	void Inputmk();
+	void Tampilmk();
 };
