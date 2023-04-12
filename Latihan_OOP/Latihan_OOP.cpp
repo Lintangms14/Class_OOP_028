@@ -37,6 +37,9 @@ void matakuliah::InputMK() {
 	cout << "Masukkan sks mata kuliah : ";
 	cin >> sks;
 }
+void matakuliah::TampilMK() {
+
+}
 
 int main() 
 {
